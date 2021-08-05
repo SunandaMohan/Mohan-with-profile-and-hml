@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script>
+function validate(form) {
+  var marital = document.getElementById("marital");
+  if (marital.value == "blank") {
+   alert ("whatever message you want to put here.");
+   return false;
+  }
+  return true;
+}
+
+</script>
+</head>
+<body>
+: <input id="date" type="text" />
+<br><br>
+<button id="validate" onclick=validate()>Validate</button>
+<div id="result1"></div>
+</body>
+</html>
